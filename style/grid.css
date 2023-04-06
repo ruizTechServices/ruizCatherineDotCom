@@ -1,0 +1,24 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  
+    
+    .div1 {
+        grid-area: 1 / 1 / 2 / 7;
+    }/*navBar*/
+    .div2 {
+        grid-area: 2 / 1 / 6 / 7;
+    }/*mainHero*/
+    .div3 {
+        grid-area: 6 / 1 / 9 / 7;
+    }/*middleSection/Slider*/
+    .div4 {
+        grid-area: 9 / 1 / 10 / 7;
+    }/*midWayCTA*/
+    .div5 {
+        grid-area: 10 / 1 / 11 / 7;
+    }/*footer*/
